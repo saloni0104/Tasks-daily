@@ -2,6 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ListItems from './ListItems';
+import { library} from '@fortawesome/fontawesome-svg-core';
+import {faTrash} from '@fortawesome/free-solid-svg-icons';
+
+
+library.add(faTrash);
 
 class App extends React.Component {
 
