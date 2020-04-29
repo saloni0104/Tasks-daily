@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ListItems from './ListItems';
 
 class App extends React.Component {
 
@@ -29,9 +30,8 @@ class App extends React.Component {
   addItem(e) {
     e.preventDefault();
     const newItem = this.state.currentItem;
-    console.log(newItem);
     if(newItem.text!==""){
-      const items=[...this.state.items, newItems];       //First parameter unpacks all items in list into individual items, second one added to the list
+      const newItems=[...this.state.items, newItem];       //First parameter unpacks all items in list into individual items, second one added to the list
       this.setState({
         items:newItems,
         currentItem:{
@@ -56,6 +56,7 @@ class App extends React.Component {
             <button type="submit">Add</button>
           </form>
         </header>
+        <ListItems items={this.state.items} />
       </div>
     );
   }
