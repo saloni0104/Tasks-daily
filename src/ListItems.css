@@ -1,15 +1,17 @@
 .list {
     color: #fff;
     width: 300px;
-    background-color: #bf07ac ;
+    background-color: #f67e7d;
     height: 50px;
     margin: 20px auto;
     border-radius: 5px;
+
 }
 
 .list p {
     padding: 10px;
     position: relative;
+    
 }
 
 .list p span{
@@ -20,7 +22,12 @@
 
 .faicons{
     margin: 0 5px;
-    font-size: 15px;
+    font-size: 20px;
+    
+}
+
+.listtext{
+    font-size: 100px;;
 }
 
 .list p input{

@@ -1,9 +1,9 @@
 body {
-  background-color: #9266ff;
+  background-color: lightskyblue;
 }
 
 .App{
-  background-color: #3f3160;
+  background-color: #843b62;
   min-height: 500px;
   width: 400px;
   margin: 40px auto;
@@ -17,7 +17,7 @@ body {
   color:#fff;
 }
 #to-do-form input {
-  background-color: rgb(27,112,137);
+  background-color: #ffb997;
   border: 0;
   width: 200px;
   height: 50px;
@@ -29,7 +29,7 @@ body {
 }
 
 #to-do-form input::placeholder {
-  color: rgba(255,255,255,0.5);
+  color: white;
 }
 
 #to-do-form input:focus, #to-do-form button:focus {
@@ -41,7 +41,7 @@ body {
   width: 80px;
   border-radius: 5px;
   border: 0;
-  background-color: rgb(202, 156, 24);
+  background-color:#ffb997;
   cursor:pointer;
   font-weight: bolder;
   color: #fff;
