@@ -9,6 +9,13 @@ body {
   margin: 40px auto;
 }
 
+.heading{
+  text-align: center;
+  padding:20px;
+  font-size:30px;
+  font-weight: bolder;
+  color:#fff;
+}
 #to-do-form input {
   background-color: rgb(27,112,137);
   border: 0;
